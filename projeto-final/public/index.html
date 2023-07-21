@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Priscila Passos">
+  <meta name="description" content="Site desenvolvido como projeto final - Potência Feminina">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <title>Grace Hopper | A Cientista da Computação</title>
+  <link rel="shortcut icon" type="image/png" href="assets/icones/icone-bug01.svg.svg">
+
+
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+  <link rel="stylesheet" href="assets/css/estilo.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+  <script src="javascript/script.js" defer></script>
+</head>
+
+
+<body>
+  <header>
+  <div class="background">
+    <nav>
+      <img src="assets/icones/icone-bug01.svg.svg" alt="Logo do inseto que representa um bug no código">
+       <h2>Grace <span>Hopper</span></h2>
+        <ul class="cabeçalho-link">
+          <li><a href="#inicio">Início</a></li> 
+          <li><a href="#biografia">Biografia</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="#reconhecimento">Reconhecimento</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul><!--cabeçalho-link-->
+    </nav>
+  </div><!--background-->
+  </header>
+
+
+  <main>
+    <aside>
+     <div class="main">
+        <h1>Grace <span>Hopper</span></h1>
+        <h4> A mulher que tornou a linguagem do computador mais humana. 
+          Foi almirante, analista de sistemas da Marinha dos Estados Unidos nas décadas de 1940 e 1950,
+          e a cientista da computação responsável pela criação da linguagem de programação de alto nível, o COBOL.
+        </h4>
+        <button class="button">Saiba mais</button> 
+     </div><!--main-->
+    </aside>
+
+
+    <aside class="a-menu">
+      <div class="icon-menu" onclick="abrirmenu()">
+          <div class="menu">
+            <span class="material-symbols-outlined">menu</span>
+          </div><!--menu-->
+      </div><!--icon-menu-->
+  
+      <div id="barra-menu">
+         <ul>
+          <li><a href="#inicio">Início</a></li> 
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+            <li><a href="#reconhecimento">Reconhecimento</a></li>
+            <li><a href="#contato">Contato</a></li>
+         </ul>
+      </div><!--barra-menu-->
+    </aside>
+
+
+    <article>
+      <img src="assets/imagens/gracee.jpg" alt="Foto da Grace Hopper" title="Grace Hopper">
+    </article>
+  </main>
+  
+ 
+
+  <section class="background-color-bio">
+    <div class="main-bio">
+      <img src="assets/imagens/grace10.jpg.jpg" alt="Foto da Grace Hopper" title="Grace Hopper">
+     <div class="text-bio">
+         <h2>Biografia</h2>
+         <h5>Almirante <span>&</span> Analista de Sistemas</h5>
+         <p>Grace Murray Hopper nasceu em 9 de dezembro de 1906 na cidade de Nova York e faleceu em 1992 em Condado de Arlington. 
+            Grace era casada com o Vicent e a mais velha entre os três irmãos, e desde criança já demonstrava ter um olhar atento e uma curiosidade sagaz. 
+            Graduou-se em Matemática e Física e foi uma das primeiras mulheres a doutorar-se em Matemática na Universidade de Yale no ano de 1934.
+            Sempre foi muito boa com idiomas. Tinha aprendido alemão, francês, latim e grego por conta própria, lendo com atenção o dicionário ao
+            seu lado, juntando as palavras desconhecidas em frases como variáveis matemáticas.
+         </p>
+         <button class="button-2">Leia mais</button> 
+     </div><!--text-bio-->
+   </div><!--main-bio-->
+  </section><!--background-color-bio-->
+
+
+  <div class="container-curiosidades">
+       <div class="title">
+          <h2>Curiosidades</h2>
+       </div><!--title-->
+       <div class="caixa">
+
+         <div class="card">
+          <span class="material-symbols-outlined">school</span>
+          <h5>Professora</h5>
+          <p>Era acadêmica e dava aulas de matemática em Vassar, ensinava temas como cálculo, trigonometria e desenho técnico.
+             Em suas horas vagas estudava astronomia, geologia, física e arquitetura.
+             Sua destreza intelectual era lendária.</p>
+        </div><!--card-->
+
+          <div class="card">
+            <span class="material-symbols-outlined">data_object</span>
+            <h5>Programadora</h5>
+            <p>Como programadora desenvolveu as primeiras linguagens ao ser 
+              aceita, na Escola de Aspirantes à Reserva da Marinha dos Estados Unidos em Northampton, Massachusetts.</p>
+          </div><!--card-->
+
+            <div class="card">
+              <span class="material-symbols-outlined">computer</span>
+              <h5>Cientista</h5>
+              <p>Trabalhou no Mark I de Harvard e foi co-autora de três artigos científicos baseados nesse projeto.
+                 Em 1949, fez parte do time que desenvolveu o computador UNIVAC I.
+                 E no Eckert-Mauchly, desenvolveu o seu compilador, seu programa convertia termos em Inglês para código de máquina.
+              </p>
+            </div><!--card-->
+
+         </div><!--caixa-->
+  </div><!--container-curiosidades-->
+
+
+
+ <div class="reconhecimento">
+     <div class="title-corpo">
+       <h2>Reconhecimento</h2>
+     </div><!--title-->
+</div><!--reconhecimento-->
+
+<article class="art">
+    <img src="assets/imagens/grace16.jpg.jpg" alt="Foto da Grace Hopper" title="Grace Hopper">
+ <div class="outros">
+  <p>Entre tantas honrarias que recebeu, destacam-se o recebimento por Grace Hooper da primeira edição do prêmio “Man of the Year”, 
+    cujo significado em português seria prêmio “HOMEM do ano” da Associação de Gerenciamento de Processamento de Dados. 
+    Desde 1994 é realizado em sua homenagem o congresso Grace Hopper Celebration of Women in Computing, que celebra os 
+    feitos das mulheres no mundo da computação anualmente.
+    Em 1991 recebeu uma Medalha Nacional de Tecnologia e no dia 22 de Novembro de 2016 foi postumamente premiada com a
+    Medalha Presidencial de Liberdade pelo Presidente Barack Obama.
+  </p>
+</div><!--outros-->
+</article><!--art-->
+
+
+
+<footer>
+
+  <h6>Grace Hopper</h6>
+  <p>Site desenvolvido como projeto final para WoMakersCode | "Programação Web para Iniciantes".</p>
+ 
+  <div>
+    <span class="texto-span">
+      Feito com amor por Priscila Passos - 2023
+      <img class="icone-texto" alt="amor" src="assets/icones/coracao1.svg.svg">
+    </span><!--texto-span-->
+  </div>
+
+  <div class="redes-sociais">
+    <a href="https://www.instagram.com/apriisci/" class="link_redes" title="Me acompahe no Instagram">
+      <img class="icone-redes" alt="" src="assets/icones/instagram.svg.svg">
+    </a>
+
+    <a href="https://www.linkedin.com/in/priscilacpassos/" class="link_redes" title="Me acompahe no Linkedin">
+      <img class="icone-redes" alt="" src="assets/icones/linkedin.svg.svg">
+    </a>
+
+    <a href="https://github.com/PriscilaCPassos" class="link_redes" title="Me acompahe no GitHub">
+      <img class="icone-redes" alt="" src="assets/icones/github.svg.svg">
+    </a>
+  </div><!--redes-sociais-->
+  
+  <div class="end">
+     <p>CopyRight By Priscila Passos</p>
+  </div><!--end-->
+
+</footer>
+
+</body>
+</html>

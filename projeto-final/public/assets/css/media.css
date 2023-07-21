@@ -1,0 +1,106 @@
+/*@media screen and (max-width: 760px){
+  /* Quando o site chegar na largura de 760 px, será aplicado toda 
+  estilização que estiver no site. 
+  
+  header{
+    flex-direction: column;
+  }
+
+  main{
+    flex-direction: column;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  h1{
+    font-size: 28px;
+  }
+
+  h4{
+    font-size: 10px;
+  }
+
+  button{
+    padding: 2px 5px;
+  }
+
+  img{
+    display: none;
+  }
+
+  ul li{
+    text-align: center;
+  }
+*/
+
+@media screen and (max-width:375px)
+{
+
+  .background h2{
+    font-size: 10px;
+  }
+
+  .icon-menu .menu{
+    display: block;
+  }
+
+
+  #barra-menu{
+    height: 100vh;
+    z-index: 1;
+  
+  }
+
+  .main h1,span,h4{
+    font-size: 20px;
+  }
+
+  .button{
+    width: 180px;
+    max-width: 100%;
+    position: relative;
+    margin-left: -2px;
+    margin-top: 100px;
+
+  }
+
+  .main-bio img{
+   width: 280px;
+   height: auto;
+   border-radius: 10px;
+   margin-left: -180px;
+  }
+
+  .background-color-bio{
+     align-items: center;
+     text-align: center;
+  }
+
+  .text-bio h2{
+     margin-left:  -180px;
+
+  }
+
+  .text-bio h5{
+    margin-left:  -180px;
+  }
+
+  .text-bio p{
+     font-size: 15px;
+     width: 350px;
+     margin-left: 15px;
+  }
+
+  .button-2{
+    margin-left: -180px;
+
+  }
+
+  .container-curiosidades h2{
+    margin-left: -380px;
+    font-size: 40px;
+  }
+
+}
